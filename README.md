@@ -1,1 +1,3 @@
-this repository is for practic
+this repository is for practice, yes.
+
+
