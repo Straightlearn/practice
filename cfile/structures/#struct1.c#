@@ -1,0 +1,23 @@
+#include <stdio.h>
+void first_pen(struct my_pen *u ,char *n,float l,char *c);
+
+
+struct my_pen
+{
+	char *name;
+	float length;
+	char *color;
+};
+
+
+void first_pen(struct my_pen *u ,char *n,float l,char *c)
+{
+if(u)
+{
+	u->name=n;
+	u->length=l;
+	u->color=c;
+}
+}
+
+int main()                                            {                                                             struct my_pen uk_pen;                                 first_pen(&uk_pen,"div",6.3,"green");                 printf(" I have a %s pen %f long with %s colo\r made in uk\n",uk_pen.name,uk_pen.length,uk_pen.colo\r);                                                           return (0);                                   }

@@ -1,0 +1,40 @@
+#include <stdio.h>
+typedef char spec;
+typedef struct PHONE PHONE;
+
+/**
+ * struct: PHONE
+ * typedef char spec
+ * declaration for struct PHONE
+ * 
+ */
+struct PHONE
+{
+	spec *model;
+	spec *sim;
+	spec *display_Type;
+	spec *OS;
+	spec *card_slot;
+	spec *internal_storage;
+	spec *sensor;
+	spec *battery_type;
+};
+
+/*typedef struct PHONE PHONE
+ * main function
+ */
+int main(void)
+{
+	PHONE TECHNO;
+	TECHNO.model="spark4";
+	TECHNO.sim="Dual sim";
+	TECHNO.display_Type="IPS LCD";
+	TECHNO.OS="Android 9.0 pie,Hios 5.5";
+	TECHNO.card_slot="macrosDXC";
+	TECHNO.internal_storage="32GB 2GB RAM";
+	TECHNO.sensor="finger print,proximity";
+	TECHNO.battery_type="Li-Lon 4000MAH";
+
+	PHONE INFINIX;
+}
+
